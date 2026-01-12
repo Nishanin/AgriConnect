@@ -1,0 +1,68 @@
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Cache
+.cache/
+*.cache
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.code-workspace
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Node modules (Frontend & Backend)
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+
+# Large datasets and models
+datasets/
+disease-detection-model/
+*.safetensors
+*.bin
+*.pth
+*.onnx
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
